@@ -117,7 +117,7 @@ span{
     left: 48.5%;
 }
 
-@media(max-width:370px){
+@media(max-width:420px){
     #box{
         width:95%;
         height:49%;
@@ -138,26 +138,26 @@ span{
     }
     span{      
         position:relative;
-        right: -38%;
+        right: -49%;
         top: 5%;
     }
     #span1{
-        left: 47%;
+        left: 56%;
     }
     #type1{
       
         position: relative;
-        top: 47%;
-        left: 15%;
+        top: 49%;
+        left: 25%;
     }
     #type2{
      
         position: relative;
         top: 49%;
-        left: 24%;
+        left: 33%;
     }
 }
-@media (min-width:371px) and (max-width:600px)
+@media (min-width:421px) and (max-width:600px)
 {
     #box{
         width:95%;
