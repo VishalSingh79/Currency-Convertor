@@ -117,4 +117,29 @@ span{
     left: 48.5%;
 }
 
-
+@media(max-width:500px){
+    #box{
+        width:95%;
+        height:49%;
+    }
+    span{      
+        position:relative;
+        right: -51%;
+        top: 5%;
+    }
+    #span1{
+        left: 58%;
+    }
+    #type1{
+      
+        position: relative;
+        top: 47%;
+        left: 32.4%;
+    }
+    #type2{
+     
+        position: relative;
+        top: 49%;
+        left: 39.3%;
+    }
+}
