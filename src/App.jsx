@@ -31,7 +31,7 @@ function App() {
             />
           
          <div id='box'>
-         <span id='head1'>Currency Convertor</span>
+         <div className='head1'>Currency Convertor</div>
              <div className='box1'>
                 <label className='sbox1'>From</label>
                 <span>Currency Type</span>
