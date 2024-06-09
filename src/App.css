@@ -117,7 +117,7 @@ span{
     left: 48.5%;
 }
 
-@media(max-width:350px){
+@media(max-width:370px){
     #box{
         width:95%;
         height:49%;
@@ -157,7 +157,7 @@ span{
         left: 24%;
     }
 }
-@media (min-width:351px) and (max-width:600px)
+@media (min-width:371px) and (max-width:600px)
 {
     #box{
         width:95%;
