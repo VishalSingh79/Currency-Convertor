@@ -47,9 +47,7 @@
     font-size: 1.3rem;
     border: none;
     font-family:Gill Sans;
-    position: relative;
-    top: 0.2rem;
-    left: 2rem;
+   
 }
 .sbox2{
     width: 60%;
@@ -60,9 +58,7 @@
     font-size: 1.5rem;
     border: none;
     font-family:Gill Sans;
-    position: relative;
-    top: 0.4rem;
-    left: 2rem;
+   
     padding: 0.2rem 0.4rem;
 }
 #convert{
@@ -89,9 +85,7 @@
 span{
     color: rgb(48, 48, 48);
     font-size: 1.3rem;
-    position:relative;
-    right: -60%;
-    top: 5%;
+   
 }
 #span1{
     left: 65.5%;
@@ -100,11 +94,20 @@ span{
     padding: 0.01rem 0.3rem;
     font-weight:550;
     width: 3.9rem;
-    height: 1.8rem;
+    height: 1.9rem;
     border-radius: 4px;
-    position: relative;
-    top: 47%;
-    left: 43.5%;
+    
+}
+.optioninput{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+.optioninput1{
+    display: flex;
+    width:90%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 #type2{
     padding: 0.01rem 0.3rem;
@@ -112,75 +115,31 @@ span{
     width: 3.9rem;
     height: 1.8rem;
     border-radius: 4px;
-    position: relative;
-    top: 49%;
-    left: 48.5%;
+   
 }
-
-@media(max-width:420px){
-    #box{
-        width:95%;
-        height:49%;
-    }
-    .sbox1{
-        
-      
-        position: relative;
-        top: 0.2rem;
-        left: 2%;
-    }
-    .sbox2{
-     
-        position: relative;
-        top: 0.4rem;
-        left: 2%;
-        padding: 0.2rem 0.4rem;
-    }
-    span{      
-        position:relative;
-        right: -49%;
-        top: 5%;
-    }
-    #span1{
-        left: 56%;
-    }
-    #type1{
-      
-        position: relative;
-        top: 49%;
-        left: 25%;
-    }
-    #type2{
-     
-        position: relative;
-        top: 49%;
-        left: 33%;
-    }
-}
-@media (min-width:421px) and (max-width:600px)
-{
-    #box{
-        width:95%;
-        height:49%;
-    }
- #type1{
-      
-    position: relative;
-    top: 47%;
-    left: 32.4%;
-}
-#type2{
  
-    position: relative;
-    top: 49%;
-    left: 39.3%;
-} 
-span{      
-    position:relative;
-    right: -51%;
-    top: 5%;
-} 
- #span1{
-    left: 58%;
-} 
-} 
+@media(max-width:1220px){
+    #box{
+        width:45%;
+        height:49%;
+    }
+}
+@media(max-width:900px){
+    #box{
+        width:55%;
+        height:49%;
+    }
+}
+@media(max-width:700px){
+    #box{
+        width:65%;
+        height:49%;
+    }
+}
+@media(max-width:500px){
+    #box{
+        width:85%;
+        height:49%;
+    }
+}
+ 

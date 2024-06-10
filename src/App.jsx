@@ -33,8 +33,15 @@ function App() {
          <div id='box'>
          <div className='head1'>Currency Convertor</div>
              <div className='box1'>
+                <div className='optioninput1'>
                 <label className='sbox1'>From</label>
                 <span>Currency Type</span>
+                </div>
+                <div className='optioninput'>
+
+                <input type='number' className='sbox2' placeholder='0'    min={0} onChange={(e)=>(setTakev(takev=e.target.value))} value={takev} />
+
+                <div className='option'>
                 <select  id='type1' onChange={(e)=>setFrom(from=e.target.value)}>
                  {
                     options.map((currency)=>{
@@ -46,18 +53,20 @@ function App() {
                     })
                  }
                 </select>
-                  <br/>
-                  
-                <input type='number' className='sbox2' placeholder='0'    min={0} onChange={(e)=>(setTakev(takev=e.target.value))} value={takev}
-                  
-                />
+                </div>
+                </div>
              </div>
              <br/>
              <br/>
             
              <div className='box1'>
+               <div className='optioninput1'>
                 <label className='sbox1'>To</label>
                 <span id='span1'>Currency Type</span>
+                </div>
+                <div className='optioninput'>
+                <input type='number' className='sbox2' value={number} />
+                <div>
                 <select  id='type2' onChange={(e)=>setTo(to=e.target.value)} >
                  {
                     options1.map((currency)=>{
@@ -68,9 +77,9 @@ function App() {
                           )
                     })
                  }
-                </select>              
-                  <br/>                 
-                <input type='number' className='sbox2' value={number} />
+                </select>   
+                </div>               
+                </div>
              </div>
               <div id='convert' onClick={conversion}>
                <p>Convert {from} to {to}</p>
