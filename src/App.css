@@ -118,28 +118,28 @@ span{
    
 }
  
-@media(max-width:1220px){
+@media(max-width:1220px) or (max-height:700px){
     #box{
         width:45%;
         height:49%;
     }
 }
-@media(max-width:900px){
+@media(max-width:900px) or (max-height:640px){
     #box{
         width:55%;
-        height:49%;
+        height:59%;
     }
 }
-@media(max-width:700px){
+@media(max-width:700px)or (max-height:560px){
     #box{
         width:65%;
-        height:49%;
+        height:69%;
     }
 }
-@media(max-width:500px){
+@media(max-width:500px)or (max-height:450px){
     #box{
         width:85%;
-        height:49%;
+        height:89%;
     }
 }
  
